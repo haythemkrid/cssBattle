@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Image Similarity Checker</title>
+</head>
+<body>
+    <h1>Compare Two Images</h1>
+    <form action="http://localhost:5000/compare" method="post" enctype="multipart/form-data">
+        <label>Image 1:</label>
+        <input type="file" name="image1" required><br><br>
+
+        <label>Image 2:</label>
+        <input type="file" name="image2" required><br><br>
+
+        <button type="submit">Compare</button>
+    </form>
+</body>
+</html>
